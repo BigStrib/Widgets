@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh; font-family:sans-serif;">
+    <div id="clock">Loading...</div>
+    <script>
+        function tick() {
+            document.getElementById('clock').innerText = new Date().toLocaleTimeString();
+        }
+        setInterval(tick, 1000);
+        tick();
+    </script>
+</body>
+</html>
